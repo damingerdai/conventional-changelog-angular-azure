@@ -1,0 +1,1 @@
+console.log('hello! This is conventional-changelog-angular-azure');

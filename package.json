@@ -1,0 +1,14 @@
+{
+  "name": "conventional-changelog-angular-azure",
+  "version": "0.0.0",
+  "description": "conventional-changelog-angular for azure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mingguobin@live.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
