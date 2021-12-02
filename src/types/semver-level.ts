@@ -1,0 +1,1 @@
+export type SemverLevel = 0 | 1 | 2 | null; // major | minor | patch

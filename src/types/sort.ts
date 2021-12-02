@@ -1,0 +1,1 @@
+export type Sorter<T> = string[] | string | ((a: T, b: T) => number);

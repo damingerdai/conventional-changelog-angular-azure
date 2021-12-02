@@ -2,13 +2,18 @@
   "name": "conventional-changelog-angular-azure",
   "version": "0.0.0",
   "description": "conventional-changelog-angular for azure",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mingguobin@live.com",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^16.11.11",
     "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "compare-func": "^2.0.0"
   }
 }
