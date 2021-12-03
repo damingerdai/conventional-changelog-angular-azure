@@ -5,9 +5,10 @@ export const parserOpts: Partial<ParserOptions> = {
     // Keep in sync with checkCommitFormat
     headerPattern: new RegExp(`^(Merged? PR \\d+: )?${COMMIT_FORMAT_PREFIX.source} (.*)$`, 'u'),
     mergeCorrespondence: ['id', 'source'],
-    mergePattern: /^Merge pull request #(\\d+) from (.*)/u,
+    mergePattern: /^Merged PR (\\d+)/u,
 
     noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'Note'],
     revertCorrespondence: ['header'],
     revertPattern: /^Revert\s"(.*)"?/u,
+    referenceActions: ['Related work items:', 'close', 'closes', 'closed', 'fix', 'fixes', 'fixed', 'resolve', 'resolves', 'resolved']
 };
