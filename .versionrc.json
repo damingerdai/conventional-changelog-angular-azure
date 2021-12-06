@@ -1,0 +1,7 @@
+{
+    "standard-version": {
+      "scripts": {
+        "prerelease": "tsc"
+      }
+    }
+  }

@@ -26,10 +26,14 @@
   "homepage": "https://github.com/damingerdai/conventional-changelog-angular-azure#readme",
   "scripts": {
     "build": "tsc",
-    "test": "jest --runInBand --detectOpenHandles --forceExit"
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
   },
   "dependencies": {
-    "compare-func": "^2.0.0"
+    "compare-func": "^2.0.0",
+    "standard-version": "^9.3.2"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
